@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+<style>
+body {
+    background: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rosybrown;
+}
+
+
+.columns {
+  column-count: 2;
+  column-gap: 10px;
+  column-rule: 10px solid BLACK;
+}
+
+.column {
+    float: left;
+    padding: 15px;
+    border: 2px;
+    text-align: justify;
+    background-color: antiquewhite;
+    opacity: 0.7; 
+    border-radius: 34px; 
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+
+.footnote {
+    text-align: center;
+    padding: 15px;
+    border: 2px;
+    background-color: antiquewhite;
+    opacity: 0.7; 
+    border-radius: 34px; 
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+ 
+.logo {
+  font-size: 3.5em;
+  font-weight: bolder;
+  text-align: center;
+  color: rgb(158, 10, 10);
+}
+h4 {
+  color: rgb(158, 10, 10);
+  font-style: italic;
+}
+ 
+</style>
+</head>
+<body>
+
+    <div>
+        <p class="logo"><img src="logo.png" alt="Logo">Maasai Mara University</p>
+        
+      </div>
+      
+
+    <ul>
+        <li><a href="#">Presentation</a></li>
+        <li><a href="#">Studies</a></li>
+        <li><a href="#">Staff</a></li>
+        <li><a href="homepage.php">Homepage</a></li>
+    </ul>
+
+    <div class="columns">
+        <div class="column">
+          <h2>News</h2>
+
+          <h4>Sports</h4>
+          <p><i>Our Basket ball team has shown it's greatest potential and shine its way in the game against University of Nairobi. It brought the trophy home last weekend.It scored <b>12 points</b> toping.</i></p>            
+          
+          <h4>Vice Chancellor</h4>
+          <p><i>We have been Provided a new <b>Vice Chancellor</b> who is expected to join our campus any moment from now. The administration is greatfull having the acting Vice Chancellor an all the work done.</i></p>    
+          
+          <h4>Drama Club</h4>
+          <p><i>During the event held at <b>Strathmore University</b> on last weekend, our Drama Club was able to beat the contest and managed to be the best top 3 highly performed. It was the <b>3rd</b> in the contest,</i></p>      
+        </div>
+        <div class="column">
+            <h2>Announcements</h2>
+            <h4>Campus Night</h4>
+            <i><p>This coming <b>Friday</b> we'll be having our <b>Campus Night</b> at Ole Karei Hall. You don't wanna miss out. Tell a friend to a friend. Welcome All, Free Entry.<br>COME ALL WE HAVE FUN TOGETHER!!!</i></p>
+              
+            <h4>Skating</h4>
+            <p><i>This is to inform all the students who have been monitored skating around lecture hall to stop skating around those area at look for a safe ground around the school premises</i></p>      
+           
+            <h4>Student ID</h4>
+            <p><i>It have come to our attention that most of the student don't carry their student id with them all the time. All student are now required be having their school id in and off campus.</i></p>
+
+        </div>
+      </div>
+      
+
+<p class="footnote"> Contact: <a href="https://mmarau.ac.ke" target="_blank">Maasaimaraunivesity@mmarau.ac.ke</a></p>
+<p class="footnote">(c) Maasai Mara University, 2023.</p>
+
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <body>
+        <div class="container">
+          <p class="text">MY BLOG ABOUT MY LIFE </p>
+        </div>
+        
+
+    <div class="column c3">
+        <h2>Menu</h2>
+       
+        <ul id="myMenu">
+            <li><a href="uni.php">University</a></li>
+           <li><a href="cv.php">Curriculum Vitae</a></li>
+           <li><a href="pd.php">Personal Data</a></li>
+           <li><a href="today.php">Today</a></li>
+        </ul>
+
+
+</div>
+    <div class="column c2">
+
+        <h2>Get Together With Friends</h2>
+        <p><b>2nd March 2024</b></p>
+        <p>I went to the City-Center Mall to meet up with my friends from the past. It have been long since we had a get together. Staying for over an year without meeting each other, we had alot to tell each other. It was fun having such kinda friends in life.</p>
+    
+
+        <h2>Went For Camping</h2>
+        <p><b>3rd March 2024</b></p>
+        <p>Went camping at Lake Shotwell for the night with friends. I loved the smell of the campfire and the taste of roasted, actually burnt marshmallows. I can still smell the pine trees. I wonder if i should ask if we can go to the lake again! Maybe I should just let them surprise me. We've always had a great vacations and they always planned them.</p>     
+
+        <h2>Stayed Indoors ..</h2>
+        <p><b>4th March 2024</b></p>
+        <p>This morning i finished my tasks on literacy planet. I said happy Birthday to one of my cousin Mary. I had a chocolate milkshake from the coffee guy. I watched <i>'Halt & Catch Fire'</i> and 'The Rookie'.</p>
+       
+        <h2>Puddle Jumping</h2>
+        <p><b>5th March 2024</b></p>
+        <p>I went puddle jumping! I ran really quickly to find big and deep puddles. Jumping in puddles was fun and made me feel happy.</p>
+
+        <h2>Lil sis D-day</h2>
+        <p><b>6th March 2024</b></p>
+        <p>Today was the long awaited day for my little sister. It was her Birthday. She was on mood since morning as she was preparing for the party. Everythijng she made sure was on track as she had invited most of friends from school and the neighbourhood. Ofcourse i couldn't miss that party. It was mind blasting as we family and friends enjoyed ourself. She had the most pleasing gifts over aand over.</p>
+
+        <h2>Racing Arena..</h2>
+        <p><b>7th March 2024</b></p>
+        <p>I love racing sports car. i enjoy the engine revving as the the car drifts. I went to the park where the racing sports was held. it really hit my nerve as i was enjoying the veiw. 'Mike Jason' my favourite driver, he drifts it well and i enjoy everything about him starting from his lifestyle to his career. This time round it so suddenly he didn't make to the Arena, though i had to watch the rest of the racing as i had my ticket purchased already.    </p>
+
+    </div>
+    <div class="column c3">
+
+        <h2>Last posts</h2>
+        <ul id="myMenu">
+            <li><a href="#">Yesterday</a></li>
+            <li><a href="#">Hiking in Forest</a></li>
+            <li><a href="#">Park Visit </a></li>
+            <li><a href="login.php">Logout</a></li>
+        </ul>   
+     </div>
+
+</div>
+    
+
+    
+</body>
+</html>
+

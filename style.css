@@ -1,0 +1,86 @@
+body {
+    background-image: url(bg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text {
+  color: darkred;
+  margin-left: 25%;
+  font-size: 3em;
+  letter-spacing: 2px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  border-right: 10px solid rosybrown;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 4s steps(15) infinite,
+             cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+  50% { border-color: transparent;}
+}
+
+@keyframes typing {
+  from { width: 0; }
+}
+
+
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    padding: 15px;
+    border: 2px;
+    text-align: justify;
+    background-color: antiquewhite;
+    opacity: 0.7; 
+    border-radius: 34px; 
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  }
+
+.c1 {
+    width: 25%;
+    
+}
+
+.c2 {
+    width: 65%; 
+    height: 90vh; 
+    overflow: auto; 
+}
+  
+.c3 {
+    width: 15%;
+    
+}
+  
+  
+
+
+
+  #myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    display: block
+  }
+  
+  #myMenu li a:hover {
+    background-color: rgb(212, 167, 84);
+  }
+  h2 {
+    color: darkred;
+  }
+  
